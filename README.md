@@ -4,7 +4,7 @@
 
 `Xcode会去读Project.pbxproj文件，把pbxproj转成plist文件，看起根目录结构`
 
-![pbxproj根结构](/uploads/fe9f51f51833bcba069b7dd0e11f03a9/pbxproj根结构.jpg)
+![pbxproj根结构](https://img2018.cnblogs.com/blog/432851/201906/432851-20190617170319050-1024168472.jpg)
 
 - rootObject：指向的是我们的工程对象。（对应一个24个16进制字符，96位的UUID，具体生成规则没有确切文档说明，Xcodeproj使用的是 日期+进程ID+MAC地址组合成一个唯一ID，任何一个文件都对应一个uuid，并且一定属于某个组内，工程根目录所在组为mainGroup）
 - objects:`工程中的所有配置都在这里`
@@ -34,7 +34,7 @@
 
 - 根据mainGroup的uuid找到对应的对象，Xcode打开工程对比配置
 
-  ![Rectangle_2x](/uploads/0131b96df227cb130795c532c85c534e/Rectangle_2x.png)
+  ![Rectangle_2x](https://img2018.cnblogs.com/blog/432851/201906/432851-20190617170634760-137098130.png)
 
 - 根据children中的uuid又可以找到对应的组对象，组对象又会包含其他的对象，形成树形结构
 
@@ -98,13 +98,13 @@
 
 ## 整个pbxproj文件结构图
 
-![project.pbxproj文件_iOS小熊制作_](/uploads/db3f52624c55f4e2c420a8c744da6bd4/project.pbxproj文件_iOS小熊制作_.png)
+![project.pbxproj文件_iOS小熊制作_](https://img2018.cnblogs.com/blog/432851/201906/432851-20190617170758321-286591618.png)
 
 
 
 ### XcodeProj脚本demo
 
-<http://10.10.15.98/xiaoxiong/testXcodeProj>
+<https://github.com/xiongwj0910/testXcodeProj/tree/master>
 
 脚本功能目录
 
