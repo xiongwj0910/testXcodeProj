@@ -108,7 +108,7 @@
 
 脚本功能目录
 
-添加文件到虚拟group脚本--addFileToInventedGroup.rb   
+添加文件到虚拟group,修改某个文件的编译选项脚本--addFileToInventedGroup.rb   
 
 添加文件到有实体文件夹的group脚本--addFileToGroup.rb   
 
@@ -116,7 +116,7 @@
 
 添加三方库给target脚本--addThirdFrameWorkToTarget.rb   
 
-
+添加资源文件给target脚本--addResourceFileToGroup.rb
 
 进入到工程根目录，在执行对应功能的脚本
 
@@ -128,6 +128,20 @@ ruby ./Script/addThirdFrameWorkToTarget.rb
 
 
 ### 3.参考网站
+
+Xcodeproj使用参考网站
+
+<http://www.rubydoc.info/gems/xcodeproj/Xcodeproj>（api参考文档）
+
+ <https://www.jianshu.com/p/98029cf49a69>
+
+<https://blog.csdn.net/darya_1/article/details/78095821>
+
+<https://www.jianshu.com/p/03a3f7eafe26>
+
+<https://www.jianshu.com/p/cca701e1d87c>
+
+<https://blog.csdn.net/auccy/article/details/68061889>
 
 project.pbxproj结构参考 <https://yulingtianxia.com/blog/2016/09/28/Let-s-Talk-About-project-pbxproj/>
 
@@ -147,12 +161,4 @@ Xcodeproj源码详解
 
 <https://blog.csdn.net/skylin19840101/article/details/64905318>(各语言版本的解析库)
 
-Xcodeproj使用参考网站 <https://www.jianshu.com/p/98029cf49a69>
 
-<https://blog.csdn.net/darya_1/article/details/78095821>
-
-<https://www.jianshu.com/p/03a3f7eafe26>
-
-<https://www.jianshu.com/p/cca701e1d87c>
-
-<https://blog.csdn.net/auccy/article/details/68061889>
